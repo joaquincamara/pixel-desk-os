@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss';
+
+.init-system {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: $antiquewhite;
+}

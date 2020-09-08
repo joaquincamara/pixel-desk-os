@@ -10,8 +10,8 @@ function App() {
   return (
     <div className='App'>
       <HashRouter basename='/'>
-        <Route exact path='/' component={Initsystem} />
-        <Route path='/home' component={HomeDesk} />
+        <Route path='/home' component={Initsystem} />
+        <Route exact path='/' component={HomeDesk} />
       </HashRouter>
     </div>
   );

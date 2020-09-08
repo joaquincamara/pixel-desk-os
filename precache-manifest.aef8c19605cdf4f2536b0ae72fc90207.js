@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd3543e47d04027728806505526fa31c",
+    "revision": "8f86a40c281f3a5cfd9aa6610331d9ad",
     "url": "/pixel-desk-os/index.html"
   },
   {
-    "revision": "d86d670675f808aa670e",
+    "revision": "33e58e9276963bbbfae9",
     "url": "/pixel-desk-os/static/css/main.eed7d042.chunk.css"
   },
   {
-    "revision": "6bd6daef217c0e3abaa9",
-    "url": "/pixel-desk-os/static/js/2.192fd66a.chunk.js"
+    "revision": "edb8dd510a1cf4f3e042",
+    "url": "/pixel-desk-os/static/js/2.60376504.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/pixel-desk-os/static/js/2.192fd66a.chunk.js.LICENSE.txt"
+    "url": "/pixel-desk-os/static/js/2.60376504.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d86d670675f808aa670e",
-    "url": "/pixel-desk-os/static/js/main.395e600a.chunk.js"
+    "revision": "33e58e9276963bbbfae9",
+    "url": "/pixel-desk-os/static/js/main.d29a641f.chunk.js"
   },
   {
     "revision": "9b23b195b64f0edb3434",

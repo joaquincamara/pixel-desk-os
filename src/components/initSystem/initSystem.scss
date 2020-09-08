@@ -2,7 +2,46 @@
 
 .init-system {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-grow: 1;
   background-color: $antiquewhite;
+
+  progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 600px;
+    height: 30px;
+    margin: 35px;
+    align-self: center;
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: rgb(206, 225, 241);
+    border-radius: 2px;
+  }
+
+  .blinking {
+    animation: blinkingText 1.5s infinite;
+    font-size: 20px;
+    text-align: center;
+  }
+  @keyframes blinkingText {
+    0% {
+      color: #000;
+    }
+    49% {
+      color: #000;
+    }
+    60% {
+      color: transparent;
+    }
+    99% {
+      color: transparent;
+    }
+    100% {
+      color: #000;
+    }
+  }
 }

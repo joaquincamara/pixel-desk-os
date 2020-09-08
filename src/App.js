@@ -1,13 +1,15 @@
 import React from 'react';
+import { Router } from '@reach/router';
+
 import './App.scss';
 
 import { Initsystem } from './components/initSystem/InitSystem';
 
 function App() {
   return (
-    <div className='App'>
-      <Initsystem />
-    </div>
+    <Router className='App'>
+      <Initsystem path='/' />
+    </Router>
   );
 }
 

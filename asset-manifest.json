@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pixel-desk-os/static/css/main.eed7d042.chunk.css",
+    "main.js": "/pixel-desk-os/static/js/main.395e600a.chunk.js",
+    "main.js.map": "/pixel-desk-os/static/js/main.395e600a.chunk.js.map",
+    "runtime-main.js": "/pixel-desk-os/static/js/runtime-main.96a35c67.js",
+    "runtime-main.js.map": "/pixel-desk-os/static/js/runtime-main.96a35c67.js.map",
+    "static/js/2.192fd66a.chunk.js": "/pixel-desk-os/static/js/2.192fd66a.chunk.js",
+    "static/js/2.192fd66a.chunk.js.map": "/pixel-desk-os/static/js/2.192fd66a.chunk.js.map",
+    "index.html": "/pixel-desk-os/index.html",
+    "precache-manifest.f052d75df008d320888c0145708c3670.js": "/pixel-desk-os/precache-manifest.f052d75df008d320888c0145708c3670.js",
+    "service-worker.js": "/pixel-desk-os/service-worker.js",
+    "static/css/main.eed7d042.chunk.css.map": "/pixel-desk-os/static/css/main.eed7d042.chunk.css.map",
+    "static/js/2.192fd66a.chunk.js.LICENSE.txt": "/pixel-desk-os/static/js/2.192fd66a.chunk.js.LICENSE.txt",
+    "static/media/castlevania.mp3": "/pixel-desk-os/static/media/castlevania.b084d6a5.mp3",
+    "static/media/pixel-desk-logo.svg": "/pixel-desk-os/static/media/pixel-desk-logo.42f57a8c.svg",
+    "static/media/pokemon.mp3": "/pixel-desk-os/static/media/pokemon.ad18d75f.mp3",
+    "static/media/zelda.mp3": "/pixel-desk-os/static/media/zelda.35e5073a.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96a35c67.js",
+    "static/js/2.192fd66a.chunk.js",
+    "static/css/main.eed7d042.chunk.css",
+    "static/js/main.395e600a.chunk.js"
+  ]
+}

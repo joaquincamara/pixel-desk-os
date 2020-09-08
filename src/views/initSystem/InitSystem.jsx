@@ -45,7 +45,7 @@ export const Initsystem = () => {
   return (
     <div className='init-system'>
       <img src={PixelDeskLogo} alt='Pixel-Desk-Logo' />
-      <progress max='100' value={progressPercentage}></progress>
+      <progress max='100' value={progressPercentage} />
       <When predicate={progressPercentage === 100}>
         <input
           autoFocus

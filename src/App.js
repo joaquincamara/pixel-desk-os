@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router } from '@reach/router';
+import { HashRouter, Route, Link } from 'react-router-dom';
 
 import './App.scss';
 
@@ -7,9 +7,11 @@ import { Initsystem } from './components/initSystem/InitSystem';
 
 function App() {
   return (
-    <Router className='App'>
-      <Initsystem path='/' />
-    </Router>
+    <div className='App'>
+      <HashRouter basename='/'>
+        <Route exact path='/' component={Initsystem} />
+      </HashRouter>
+    </div>
   );
 }
 

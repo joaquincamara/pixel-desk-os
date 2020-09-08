@@ -1,15 +1,17 @@
 import React from 'react';
-import { HashRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 
 import './App.scss';
 
-import { Initsystem } from './components/initSystem/InitSystem';
+import { Initsystem } from './views/initSystem/InitSystem';
+import { HomeDesk } from './views/homDesk/HomeDesl';
 
 function App() {
   return (
     <div className='App'>
       <HashRouter basename='/'>
         <Route exact path='/' component={Initsystem} />
+        <Route path='/home' component={HomeDesk} />
       </HashRouter>
     </div>
   );

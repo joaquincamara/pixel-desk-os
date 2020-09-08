@@ -25,7 +25,11 @@
   .blinking {
     animation: blinkingText 1.5s infinite;
     font-size: 20px;
+    border: none;
     text-align: center;
+    background-color: #faebd7;
+    font-family: 'Press Start 2P', cursive;
+    outline: none;
   }
   @keyframes blinkingText {
     0% {

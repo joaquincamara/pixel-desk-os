@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/pixel-desk-os/static/css/main.eed7d042.chunk.css",
-    "main.js": "/pixel-desk-os/static/js/main.d29a641f.chunk.js",
-    "main.js.map": "/pixel-desk-os/static/js/main.d29a641f.chunk.js.map",
+    "main.js": "/pixel-desk-os/static/js/main.2cbc4bda.chunk.js",
+    "main.js.map": "/pixel-desk-os/static/js/main.2cbc4bda.chunk.js.map",
     "runtime-main.js": "/pixel-desk-os/static/js/runtime-main.96a35c67.js",
     "runtime-main.js.map": "/pixel-desk-os/static/js/runtime-main.96a35c67.js.map",
-    "static/js/2.60376504.chunk.js": "/pixel-desk-os/static/js/2.60376504.chunk.js",
-    "static/js/2.60376504.chunk.js.map": "/pixel-desk-os/static/js/2.60376504.chunk.js.map",
+    "static/js/2.5808d1bb.chunk.js": "/pixel-desk-os/static/js/2.5808d1bb.chunk.js",
+    "static/js/2.5808d1bb.chunk.js.map": "/pixel-desk-os/static/js/2.5808d1bb.chunk.js.map",
     "index.html": "/pixel-desk-os/index.html",
-    "precache-manifest.aef8c19605cdf4f2536b0ae72fc90207.js": "/pixel-desk-os/precache-manifest.aef8c19605cdf4f2536b0ae72fc90207.js",
+    "precache-manifest.6845d4503bb646c0e031e6bcb99c3230.js": "/pixel-desk-os/precache-manifest.6845d4503bb646c0e031e6bcb99c3230.js",
     "service-worker.js": "/pixel-desk-os/service-worker.js",
     "static/css/main.eed7d042.chunk.css.map": "/pixel-desk-os/static/css/main.eed7d042.chunk.css.map",
-    "static/js/2.60376504.chunk.js.LICENSE.txt": "/pixel-desk-os/static/js/2.60376504.chunk.js.LICENSE.txt",
+    "static/js/2.5808d1bb.chunk.js.LICENSE.txt": "/pixel-desk-os/static/js/2.5808d1bb.chunk.js.LICENSE.txt",
     "static/media/castlevania.mp3": "/pixel-desk-os/static/media/castlevania.b084d6a5.mp3",
     "static/media/pixel-desk-logo.svg": "/pixel-desk-os/static/media/pixel-desk-logo.42f57a8c.svg",
     "static/media/pokemon.mp3": "/pixel-desk-os/static/media/pokemon.ad18d75f.mp3",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.96a35c67.js",
-    "static/js/2.60376504.chunk.js",
+    "static/js/2.5808d1bb.chunk.js",
     "static/css/main.eed7d042.chunk.css",
-    "static/js/main.d29a641f.chunk.js"
+    "static/js/main.2cbc4bda.chunk.js"
   ]
 }

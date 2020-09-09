@@ -18,7 +18,6 @@ export const Initsystem = () => {
   const step = 1;
   const interval = 30;
   const maxProgress = 100;
-  const inputMessage = 'Press ENTER to Log-in';
   const history = useHistory();
   let id;
 
@@ -36,6 +35,14 @@ export const Initsystem = () => {
     return clearTimeout(id);
   }, [progressPercentage, id]);
 
+  React.useEffect(() => {
+    window.addEventListener('keydown', handleInitSystem);
+
+    return () => {
+      window.removeEventListener('keydown', handleInitSystem);
+    };
+  }, []);
+
   const handleInitSystem = (event) => {
     if (event.key === 'Enter') {
       history.push('/home');
@@ -47,13 +54,7 @@ export const Initsystem = () => {
       <img src={PixelDeskLogo} alt='Pixel-Desk-Logo' />
       <progress max='100' value={progressPercentage} />
       <When predicate={progressPercentage === 100}>
-        <input
-          autoFocus
-          readOnly
-          onKeyPress={(event) => handleInitSystem(event)}
-          className='blinking'
-          value={inputMessage}
-        />
+        <p className='blinking'>Press ENTER to Log-in</p>
 
         <audio hidden src={shuffledMusic[0]} controls autoPlay />
       </When>

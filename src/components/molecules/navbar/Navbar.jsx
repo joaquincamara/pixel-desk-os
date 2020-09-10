@@ -29,7 +29,6 @@ export const Navbar = () => {
           className='navbar__dropbtn'
         >
           <img src={ShutDownImage} alt='Shut-down' />
-          Start
         </button>
         <div
           hidden={isMenuActive}

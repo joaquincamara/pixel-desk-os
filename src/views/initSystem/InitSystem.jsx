@@ -18,10 +18,10 @@ export const Initsystem = () => {
   const step = 1;
   const interval = 30;
   const maxProgress = 100;
-  const history = useHistory();
   let id;
 
   const [progressPercentage, setProgressPercentage] = useState(0);
+  const history = useHistory();
 
   useEffect(() => {
     const updateProgress = () => {
@@ -35,6 +35,12 @@ export const Initsystem = () => {
     return clearTimeout(id);
   }, [progressPercentage, id]);
 
+  const handleInitSystem = (event) => {
+    if (event.key === 'Enter') {
+      return history.push('/home');
+    }
+  };
+
   React.useEffect(() => {
     window.addEventListener('keydown', handleInitSystem);
 
@@ -43,19 +49,12 @@ export const Initsystem = () => {
     };
   }, []);
 
-  const handleInitSystem = (event) => {
-    if (event.key === 'Enter') {
-      history.push('/home');
-    }
-  };
-
   return (
     <div className='init-system'>
       <img src={PixelDeskLogo} alt='Pixel-Desk-Logo' />
       <progress max='100' value={progressPercentage} />
       <When predicate={progressPercentage === 100}>
         <p className='blinking'>Press ENTER to Log-in</p>
-
         <audio hidden src={shuffledMusic[0]} controls autoPlay />
       </When>
     </div>

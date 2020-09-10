@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';
 
+import ShutDownImage from '../../../assets/pixel-desk-icon.svg';
+
 import '98.css';
 import './navbar.scss';
 
@@ -26,6 +28,7 @@ export const Navbar = () => {
           onClick={() => setIsMenuActive(!isMenuActive)}
           className='navbar__dropbtn'
         >
+          <img src={ShutDownImage} alt='Shut-down' />
           Start
         </button>
         <div
@@ -38,7 +41,7 @@ export const Navbar = () => {
           <p>Documents</p>
           <p>Settings</p>
           <p>Notepad</p>
-          <p>Shut Down</p>
+          <p className='navbar__dropup-content__shut-down'>Shut Down</p>
         </div>
       </div>
 

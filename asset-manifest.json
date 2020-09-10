@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/pixel-desk-os/static/css/main.0cc8f46b.chunk.css",
-    "main.js": "/pixel-desk-os/static/js/main.40e461ef.chunk.js",
-    "main.js.map": "/pixel-desk-os/static/js/main.40e461ef.chunk.js.map",
+    "main.css": "/pixel-desk-os/static/css/main.38572b80.chunk.css",
+    "main.js": "/pixel-desk-os/static/js/main.a64857f1.chunk.js",
+    "main.js.map": "/pixel-desk-os/static/js/main.a64857f1.chunk.js.map",
     "runtime-main.js": "/pixel-desk-os/static/js/runtime-main.96a35c67.js",
     "runtime-main.js.map": "/pixel-desk-os/static/js/runtime-main.96a35c67.js.map",
     "static/css/2.98e78da5.chunk.css": "/pixel-desk-os/static/css/2.98e78da5.chunk.css",
-    "static/js/2.b93ac689.chunk.js": "/pixel-desk-os/static/js/2.b93ac689.chunk.js",
-    "static/js/2.b93ac689.chunk.js.map": "/pixel-desk-os/static/js/2.b93ac689.chunk.js.map",
+    "static/js/2.1ddc1e59.chunk.js": "/pixel-desk-os/static/js/2.1ddc1e59.chunk.js",
+    "static/js/2.1ddc1e59.chunk.js.map": "/pixel-desk-os/static/js/2.1ddc1e59.chunk.js.map",
     "index.html": "/pixel-desk-os/index.html",
-    "precache-manifest.8bfc35158f545c19e393515f4f17d60f.js": "/pixel-desk-os/precache-manifest.8bfc35158f545c19e393515f4f17d60f.js",
+    "precache-manifest.66e0c400e7af6612a846b737df58346b.js": "/pixel-desk-os/precache-manifest.66e0c400e7af6612a846b737df58346b.js",
     "service-worker.js": "/pixel-desk-os/service-worker.js",
     "static/css/2.98e78da5.chunk.css.map": "/pixel-desk-os/static/css/2.98e78da5.chunk.css.map",
-    "static/css/main.0cc8f46b.chunk.css.map": "/pixel-desk-os/static/css/main.0cc8f46b.chunk.css.map",
-    "static/js/2.b93ac689.chunk.js.LICENSE.txt": "/pixel-desk-os/static/js/2.b93ac689.chunk.js.LICENSE.txt",
+    "static/css/main.38572b80.chunk.css.map": "/pixel-desk-os/static/css/main.38572b80.chunk.css.map",
+    "static/js/2.1ddc1e59.chunk.js.LICENSE.txt": "/pixel-desk-os/static/js/2.1ddc1e59.chunk.js.LICENSE.txt",
     "static/media/castlevania.mp3": "/pixel-desk-os/static/media/castlevania.b084d6a5.mp3",
     "static/media/98.css": "/pixel-desk-os/static/media/ms_sans_serif_bold.cb1c7473.woff2",
+    "static/media/pixel-desk-icon.svg": "/pixel-desk-os/static/media/pixel-desk-icon.1294995d.svg",
     "static/media/pixel-desk-logo.svg": "/pixel-desk-os/static/media/pixel-desk-logo.b8b0651d.svg",
     "static/media/pokemon.mp3": "/pixel-desk-os/static/media/pokemon.ad18d75f.mp3",
     "static/media/zelda.mp3": "/pixel-desk-os/static/media/zelda.35e5073a.mp3"
@@ -23,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.96a35c67.js",
     "static/css/2.98e78da5.chunk.css",
-    "static/js/2.b93ac689.chunk.js",
-    "static/css/main.0cc8f46b.chunk.css",
-    "static/js/main.40e461ef.chunk.js"
+    "static/js/2.1ddc1e59.chunk.js",
+    "static/css/main.38572b80.chunk.css",
+    "static/js/main.a64857f1.chunk.js"
   ]
 }

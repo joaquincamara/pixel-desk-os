@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';
 
-import ShutDownImage from '../../../assets/pixel-desk-icon.svg';
+import startMenuIcon from '../../../assets/pixel-desk-icon.svg';
+import shutDownIcon from '../../../assets/shut_down_normal.ico';
+import notePadIcon from '../../../assets/notepad.ico';
+import SettingIcon from '../../../assets/settings_gear.ico';
+import documentsIcon from '../../../assets/directory_closed.ico';
+import gameIcon from '../../../assets/game_mine_2.ico';
+import musicPlayerIcon from '../../../assets/multimedia.ico';
+import systemInfoIcon from '../../../assets/system-infor.ico';
 
 import '98.css';
 import './navbar.scss';
@@ -18,7 +25,7 @@ export const Navbar = () => {
   }, [date]);
 
   function handleClock() {
-    setDate(moment().format('MM / DD / YY h:mm:ss a'));
+    setDate(moment().format('h:mm:ss a--MM / DD / YY'));
   }
 
   return (
@@ -28,19 +35,40 @@ export const Navbar = () => {
           onClick={() => setIsMenuActive(!isMenuActive)}
           className='navbar__dropbtn'
         >
-          <img src={ShutDownImage} alt='Shut-down' />
+          <img src={startMenuIcon} alt='Shut-down' />
         </button>
         <div
           hidden={isMenuActive}
           className={isMenuActive ? '' : 'navbar__dropup-content'}
         >
-          <p>System info</p>
-          <p>Music player</p>
-          <p>Video game console</p>
-          <p>Documents</p>
-          <p>Settings</p>
-          <p>Notepad</p>
-          <p className='navbar__dropup-content__shut-down'>Shut Down</p>
+          <div className='navbar__dropup-content__action'>
+            <img src={systemInfoIcon} alt='system-infor' />
+            <p>System info</p>
+          </div>
+          <div className='navbar__dropup-content__action'>
+            <img src={musicPlayerIcon} alt='musicPlayerIcon' />
+            <p>Music player</p>
+          </div>
+          <div className='navbar__dropup-content__action'>
+            <img src={gameIcon} alt='gameIcon' />
+            <p>Video game console</p>
+          </div>
+          <div className='navbar__dropup-content__action'>
+            <img src={documentsIcon} alt='documents' />
+            <p>Documents</p>
+          </div>
+          <div className='navbar__dropup-content__action'>
+            <img src={SettingIcon} alt='Setting-Icon' />
+            <p>Settings</p>
+          </div>
+          <div className='navbar__dropup-content__action'>
+            <img src={notePadIcon} alt='note-Pad' />
+            <p>Notepad</p>
+          </div>
+          <div className='navbar__dropup-content__action-shut-down'>
+            <img src={shutDownIcon} alt='shut-Down' />
+            <p>Shut Down</p>
+          </div>
         </div>
       </div>
 

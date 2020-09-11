@@ -56,21 +56,53 @@
     box-shadow: inset -2px -2px #0a0a0a, inset 1px 1px #fff,
       inset -4px -4px grey, inset 2px 2px #dfdfdf;
 
+    &__action {
+      display: flex;
+      padding: 0px 5px;
+
+      &-shut-down {
+        display: flex;
+        border-top: 1px solid gray;
+        padding: 0 5px;
+
+        img {
+          width: 50px !important;
+          height: 50px !important;
+        }
+
+        p {
+          color: black;
+          padding: 20px 15px !important;
+          text-decoration: none;
+          display: block;
+          box-sizing: border-box;
+        }
+      }
+    }
+
     p {
       color: black;
-      padding: 12px 16px;
+      padding: 20px 25px;
       text-decoration: none;
       display: block;
       box-sizing: border-box;
     }
 
-    &__shut-down {
-      border-top: 1px solid gray;
+    p:hover {
+      color: white;
+    }
+
+    img {
+      width: 40px;
+      height: 40px;
     }
   }
 
-  &__dropup-content p:hover {
+  &__dropup-content__action:hover {
     background-color: #282be6;
-    color: white;
+  }
+
+  &__dropup-content__action-shut-down:hover {
+    background-color: #282be6;
   }
 }

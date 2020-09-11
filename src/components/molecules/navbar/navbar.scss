@@ -88,10 +88,6 @@
       box-sizing: border-box;
     }
 
-    p:hover {
-      color: white;
-    }
-
     img {
       padding-top: 10px;
       box-sizing: border-box;
@@ -102,9 +98,15 @@
 
   &__dropup-content__action:hover {
     background-color: #282be6;
+    & p {
+      color: white;
+    }
   }
 
   &__dropup-content__action-shut-down:hover {
     background-color: #282be6;
+    & p {
+      color: white;
+    }
   }
 }

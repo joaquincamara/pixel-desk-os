@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import moment from 'moment';
-
+import { useHistory } from 'react-router-dom';
 import startMenuIcon from '../../../assets/pixel-desk-icon.svg';
 import shutDownIcon from '../../../assets/shut_down_normal.ico';
 import notePadIcon from '../../../assets/notepad.ico';
@@ -16,6 +16,7 @@ import './navbar.scss';
 export const Navbar = () => {
   const [isMenuActive, setIsMenuActive] = useState(true);
   const [date, setDate] = useState(moment().format('MM/DD/YY h:mm:ss a'));
+  const history = useHistory();
 
   useEffect(() => {
     let timerID = setInterval(() => handleClock(), 1000);
@@ -65,7 +66,10 @@ export const Navbar = () => {
             <img src={notePadIcon} alt='note-Pad' />
             <p>Notepad</p>
           </div>
-          <div className='navbar__dropup-content__action-shut-down'>
+          <div
+            onClick={() => history.push('/')}
+            className='navbar__dropup-content__action-shut-down'
+          >
             <img src={shutDownIcon} alt='shut-Down' />
             <p>Shut Down</p>
           </div>

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5410260d5eb1c3e8b242a5fde933477",
+    "revision": "b138a63afbcd4778ec2288bda3f5fbc5",
     "url": "/pixel-desk-os/index.html"
   },
   {
-    "revision": "90d94482e08f27adf8e0",
+    "revision": "4f446334bd6033c52490",
     "url": "/pixel-desk-os/static/css/2.98e78da5.chunk.css"
   },
   {
-    "revision": "b5c2ae8f9666c9cac8b0",
-    "url": "/pixel-desk-os/static/css/main.38572b80.chunk.css"
+    "revision": "f6db9f95eba76a3daf44",
+    "url": "/pixel-desk-os/static/css/main.eeb2be9c.chunk.css"
   },
   {
-    "revision": "90d94482e08f27adf8e0",
-    "url": "/pixel-desk-os/static/js/2.1ddc1e59.chunk.js"
+    "revision": "4f446334bd6033c52490",
+    "url": "/pixel-desk-os/static/js/2.d77d119d.chunk.js"
   },
   {
     "revision": "bbee919d8888a17953b5bb98359759ba",
-    "url": "/pixel-desk-os/static/js/2.1ddc1e59.chunk.js.LICENSE.txt"
+    "url": "/pixel-desk-os/static/js/2.d77d119d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5c2ae8f9666c9cac8b0",
-    "url": "/pixel-desk-os/static/js/main.a64857f1.chunk.js"
+    "revision": "f6db9f95eba76a3daf44",
+    "url": "/pixel-desk-os/static/js/main.09289c61.chunk.js"
   },
   {
     "revision": "9b23b195b64f0edb3434",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b084d6a5cd63a239f40652ba689b7a2c",
     "url": "/pixel-desk-os/static/media/castlevania.b084d6a5.mp3"
+  },
+  {
+    "revision": "dba9793efdab05af6aeca6474cc51279",
+    "url": "/pixel-desk-os/static/media/directory_closed.dba9793e.ico"
+  },
+  {
+    "revision": "7ee9e4ff05a0d6b3026d617bf4f4d40b",
+    "url": "/pixel-desk-os/static/media/game_mine_2.7ee9e4ff.ico"
   },
   {
     "revision": "1d4d404a3bbe4b7007f89e792233aa9c",
@@ -48,6 +56,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pixel-desk-os/static/media/ms_sans_serif_bold.cb1c7473.woff2"
   },
   {
+    "revision": "263f7fc75059940f975691fc1a98548f",
+    "url": "/pixel-desk-os/static/media/multimedia.263f7fc7.ico"
+  },
+  {
+    "revision": "37e3ef923cde612633c4e406f0d0c053",
+    "url": "/pixel-desk-os/static/media/notepad.37e3ef92.ico"
+  },
+  {
     "revision": "1294995dd1347e290823145369bd90dc",
     "url": "/pixel-desk-os/static/media/pixel-desk-icon.1294995d.svg"
   },
@@ -58,6 +74,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ad18d75f48af2711c953703a8c760b49",
     "url": "/pixel-desk-os/static/media/pokemon.ad18d75f.mp3"
+  },
+  {
+    "revision": "744bf98bfcf604013a9bb9636ca0b4e9",
+    "url": "/pixel-desk-os/static/media/settings_gear.744bf98b.ico"
+  },
+  {
+    "revision": "d4604b5a157617d99b10ccee2d22714b",
+    "url": "/pixel-desk-os/static/media/shut_down_normal.d4604b5a.ico"
+  },
+  {
+    "revision": "72c573373d59711c066455e100b9d6ab",
+    "url": "/pixel-desk-os/static/media/system-infor.72c57337.ico"
   },
   {
     "revision": "35e5073ad1f200cdd2dbc140c734df49",

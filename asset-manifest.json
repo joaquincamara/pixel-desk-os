@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pixel-desk-os/static/css/main.41fd7cea.chunk.css",
+    "main.css": "/pixel-desk-os/static/css/main.acb5ed20.chunk.css",
     "main.js": "/pixel-desk-os/static/js/main.09289c61.chunk.js",
     "main.js.map": "/pixel-desk-os/static/js/main.09289c61.chunk.js.map",
     "runtime-main.js": "/pixel-desk-os/static/js/runtime-main.96a35c67.js",
@@ -9,10 +9,10 @@
     "static/js/2.d77d119d.chunk.js": "/pixel-desk-os/static/js/2.d77d119d.chunk.js",
     "static/js/2.d77d119d.chunk.js.map": "/pixel-desk-os/static/js/2.d77d119d.chunk.js.map",
     "index.html": "/pixel-desk-os/index.html",
-    "precache-manifest.36cdbc54b73f69fd6ec9439483440257.js": "/pixel-desk-os/precache-manifest.36cdbc54b73f69fd6ec9439483440257.js",
+    "precache-manifest.3d6e4c4b3e4cfb7598b5c6f866d820c9.js": "/pixel-desk-os/precache-manifest.3d6e4c4b3e4cfb7598b5c6f866d820c9.js",
     "service-worker.js": "/pixel-desk-os/service-worker.js",
     "static/css/2.98e78da5.chunk.css.map": "/pixel-desk-os/static/css/2.98e78da5.chunk.css.map",
-    "static/css/main.41fd7cea.chunk.css.map": "/pixel-desk-os/static/css/main.41fd7cea.chunk.css.map",
+    "static/css/main.acb5ed20.chunk.css.map": "/pixel-desk-os/static/css/main.acb5ed20.chunk.css.map",
     "static/js/2.d77d119d.chunk.js.LICENSE.txt": "/pixel-desk-os/static/js/2.d77d119d.chunk.js.LICENSE.txt",
     "static/media/castlevania.mp3": "/pixel-desk-os/static/media/castlevania.b084d6a5.mp3",
     "static/media/directory_closed.ico": "/pixel-desk-os/static/media/directory_closed.dba9793e.ico",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.96a35c67.js",
     "static/css/2.98e78da5.chunk.css",
     "static/js/2.d77d119d.chunk.js",
-    "static/css/main.41fd7cea.chunk.css",
+    "static/css/main.acb5ed20.chunk.css",
     "static/js/main.09289c61.chunk.js"
   ]
 }

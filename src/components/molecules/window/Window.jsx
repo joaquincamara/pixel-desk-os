@@ -1,9 +1,11 @@
 import React from 'react';
 import '98.css';
 
+import './window.scss';
+
 export const Window = () => {
   return (
-    <div style={{ width: 300 }} className='window'>
+    <div className='window'>
       <div className='title-bar'>
         <div className='title-bar-text'>System Info</div>
         <div className='title-bar-controls'>

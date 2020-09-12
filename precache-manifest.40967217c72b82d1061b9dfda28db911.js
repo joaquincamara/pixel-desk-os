@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf4e99d2fc66d376277a58abaa33c299",
+    "revision": "8a230ad0bca0e1fae02d739efa593f9a",
     "url": "/pixel-desk-os/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pixel-desk-os/static/css/2.98e78da5.chunk.css"
   },
   {
-    "revision": "4d422c882cd4f5ac8fbf",
-    "url": "/pixel-desk-os/static/css/main.acb5ed20.chunk.css"
+    "revision": "1a149a58c38cf44516e6",
+    "url": "/pixel-desk-os/static/css/main.502e06c2.chunk.css"
   },
   {
     "revision": "901e0065dbd090ca11a9",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pixel-desk-os/static/js/2.bfa208e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d422c882cd4f5ac8fbf",
-    "url": "/pixel-desk-os/static/js/main.0a776e3d.chunk.js"
+    "revision": "1a149a58c38cf44516e6",
+    "url": "/pixel-desk-os/static/js/main.7f31c64f.chunk.js"
   },
   {
     "revision": "9b23b195b64f0edb3434",

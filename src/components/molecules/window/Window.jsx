@@ -8,41 +8,41 @@ export const Window = () => {
     dragElement(document.getElementById('draggableDiv'));
   });
 
-  function dragElement(elmnt) {
+  function dragElement(elment) {
     let pos1 = 0;
     let pos2 = 0;
     let pos3 = 0;
     let pos4 = 0;
-    if (document.getElementById(elmnt.id + 'Header')) {
+    if (document.getElementById(elment.id + 'Header')) {
       // if present, the header is where you move the DIV from:
-      document.getElementById(elmnt.id + 'Header').onmousedown = dragMouseDown;
+      document.getElementById(elment.id + 'Header').onmousedown = dragMouseDown;
     } else {
       // otherwise, move the DIV from anywhere inside the DIV:
-      elmnt.onmousedown = dragMouseDown;
+      elment.onmousedown = dragMouseDown;
     }
 
-    function dragMouseDown(e) {
-      e = e || window.event;
-      e.preventDefault();
+    function dragMouseDown(event) {
+      event = event || window.event;
+      event.preventDefault();
       // get the mouse cursor position at startup:
-      pos3 = e.clientX;
-      pos4 = e.clientY;
+      pos3 = event.clientX;
+      pos4 = event.clientY;
       document.onmouseup = closeDragElement;
       // call a function whenever the cursor moves:
       document.onmousemove = elementDrag;
     }
 
-    function elementDrag(e) {
-      e = e || window.event;
-      e.preventDefault();
+    function elementDrag(event) {
+      event = event || window.event;
+      event.preventDefault();
       // calculate the new cursor position:
-      pos1 = pos3 - e.clientX;
-      pos2 = pos4 - e.clientY;
-      pos3 = e.clientX;
-      pos4 = e.clientY;
+      pos1 = pos3 - event.clientX;
+      pos2 = pos4 - event.clientY;
+      pos3 = event.clientX;
+      pos4 = event.clientY;
       // set the element's new position:
-      elmnt.style.top = elmnt.offsetTop - pos2 + 'px';
-      elmnt.style.left = elmnt.offsetLeft - pos1 + 'px';
+      elment.style.top = elment.offsetTop - pos2 + 'px';
+      elment.style.left = elment.offsetLeft - pos1 + 'px';
     }
 
     function closeDragElement() {

@@ -5,17 +5,17 @@ import './window.scss';
 
 export const Window = () => {
   useEffect(() => {
-    dragElement(document.getElementById('mydiv'));
+    dragElement(document.getElementById('draggableDiv'));
   });
 
   function dragElement(elmnt) {
-    var pos1 = 0,
-      pos2 = 0,
-      pos3 = 0,
-      pos4 = 0;
-    if (document.getElementById(elmnt.id + 'header')) {
+    let pos1 = 0;
+    let pos2 = 0;
+    let pos3 = 0;
+    let pos4 = 0;
+    if (document.getElementById(elmnt.id + 'Header')) {
       // if present, the header is where you move the DIV from:
-      document.getElementById(elmnt.id + 'header').onmousedown = dragMouseDown;
+      document.getElementById(elmnt.id + 'Header').onmousedown = dragMouseDown;
     } else {
       // otherwise, move the DIV from anywhere inside the DIV:
       elmnt.onmousedown = dragMouseDown;
@@ -52,8 +52,8 @@ export const Window = () => {
     }
   }
   return (
-    <div id='mydiv' className='window'>
-      <div id='mydivheader' className='title-bar'>
+    <div id='draggableDiv' className='window'>
+      <div id='draggableDivHeader' className='title-bar'>
         <div className='title-bar-text'>System Info</div>
         <div className='title-bar-controls'>
           <button aria-label='Minimize' />

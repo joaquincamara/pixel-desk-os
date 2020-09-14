@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pixel-desk-os/static/css/main.cdb0c6ee.chunk.css",
-    "main.js": "/pixel-desk-os/static/js/main.8effcdd8.chunk.js",
-    "main.js.map": "/pixel-desk-os/static/js/main.8effcdd8.chunk.js.map",
+    "main.js": "/pixel-desk-os/static/js/main.35cb8b3e.chunk.js",
+    "main.js.map": "/pixel-desk-os/static/js/main.35cb8b3e.chunk.js.map",
     "runtime-main.js": "/pixel-desk-os/static/js/runtime-main.96a35c67.js",
     "runtime-main.js.map": "/pixel-desk-os/static/js/runtime-main.96a35c67.js.map",
     "static/css/2.98e78da5.chunk.css": "/pixel-desk-os/static/css/2.98e78da5.chunk.css",
     "static/js/2.bfa208e8.chunk.js": "/pixel-desk-os/static/js/2.bfa208e8.chunk.js",
     "static/js/2.bfa208e8.chunk.js.map": "/pixel-desk-os/static/js/2.bfa208e8.chunk.js.map",
     "index.html": "/pixel-desk-os/index.html",
-    "precache-manifest.2ec0c81b641e866212b8535b8889055a.js": "/pixel-desk-os/precache-manifest.2ec0c81b641e866212b8535b8889055a.js",
+    "precache-manifest.f5cfc41e4707489dd013db40e3fca952.js": "/pixel-desk-os/precache-manifest.f5cfc41e4707489dd013db40e3fca952.js",
     "service-worker.js": "/pixel-desk-os/service-worker.js",
     "static/css/2.98e78da5.chunk.css.map": "/pixel-desk-os/static/css/2.98e78da5.chunk.css.map",
     "static/css/main.cdb0c6ee.chunk.css.map": "/pixel-desk-os/static/css/main.cdb0c6ee.chunk.css.map",
@@ -33,6 +33,6 @@
     "static/css/2.98e78da5.chunk.css",
     "static/js/2.bfa208e8.chunk.js",
     "static/css/main.cdb0c6ee.chunk.css",
-    "static/js/main.8effcdd8.chunk.js"
+    "static/js/main.35cb8b3e.chunk.js"
   ]
 }

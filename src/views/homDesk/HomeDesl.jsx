@@ -7,7 +7,12 @@ import './homeDesk.scss';
 export const HomeDesk = () => {
   return (
     <div className='home-desk'>
-      <Window />
+      <Window
+        title={'System Info'}
+        contents={
+          'This project is for the level up of my Web development skills'
+        }
+      />
       <Navbar />
     </div>
   );

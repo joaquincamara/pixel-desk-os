@@ -3,7 +3,7 @@ import '98.css';
 
 import './window.scss';
 
-export const Window = () => {
+export const Window = ({ title, contents }) => {
   useEffect(() => {
     dragElement(document.getElementById('draggableDiv'));
   });
@@ -54,7 +54,7 @@ export const Window = () => {
   return (
     <div id='draggableDiv' className='window'>
       <div id='draggableDivHeader' className='title-bar'>
-        <div className='title-bar-text'>System Info</div>
+        <div className='title-bar-text'>{title}</div>
         <div className='title-bar-controls'>
           <button aria-label='Minimize' />
           <button aria-label='Maximize' />
@@ -63,7 +63,7 @@ export const Window = () => {
       </div>
 
       <div className='window-body'>
-        <h3>I AM DRAGABBLE</h3>
+        <p>{contents}</p>
       </div>
     </div>
   );

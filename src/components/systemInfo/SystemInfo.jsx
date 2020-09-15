@@ -6,7 +6,7 @@ import './systemInfo.scss';
 
 export const SystemInfo = () => {
   return (
-    <Window>
+    <Window title={'System Info'}>
       <div className='system-info'>
         <img src={logoImg} alt='Logo' />
         <p>Pixel Desk Os</p>

@@ -3,7 +3,7 @@ import '98.css';
 
 import './window.scss';
 
-export const Window = ({ title, contents }) => {
+export const Window = ({ title, children }) => {
   useEffect(() => {
     dragElement(document.getElementById('draggableDiv'));
   });
@@ -63,7 +63,7 @@ export const Window = ({ title, contents }) => {
       </div>
 
       <div className='window-body'>
-        <p>{contents}</p>
+        <p>{children}</p>
       </div>
     </div>
   );

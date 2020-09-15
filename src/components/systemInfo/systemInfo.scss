@@ -1,0 +1,19 @@
+.system-info {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 200px;
+    margin: 5px 5px 20px 5px;
+    align-self: center;
+  }
+
+  p {
+    box-sizing: border-box;
+    padding: 5px;
+    word-wrap: break-word;
+    width: 300px;
+    text-align: justify;
+    line-height: 15px;
+  }
+}

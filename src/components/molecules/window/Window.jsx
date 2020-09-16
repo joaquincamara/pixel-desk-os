@@ -1,9 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import '98.css';
 
 import './window.scss';
 
 export const Window = ({ title, children }) => {
+  const [isMaximized, setIsMaximized] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(false);
+  const [isClosed, setIsClosed] = useState(false);
+
   useEffect(() => {
     dragElement(document.getElementById('draggableDiv'));
   });
@@ -51,20 +55,34 @@ export const Window = ({ title, children }) => {
       document.onmousemove = null;
     }
   }
+
+  function handleMinimizeWindow() {
+    setIsMinimized(!isMinimized);
+    localStorage.setItem(title, isMinimized);
+  }
+
   return (
-    <div id='draggableDiv' className='window'>
+    <div
+      hidden={isClosed || isMinimized}
+      id='draggableDiv'
+      className={isMaximized ? 'window__maximize ' : 'window'}
+    >
       <div id='draggableDivHeader' className='title-bar'>
         <div className='title-bar-text'>{title}</div>
         <div className='title-bar-controls'>
-          <button aria-label='Minimize' />
-          <button aria-label='Maximize' />
-          <button aria-label='Close' />
+          <button
+            onClick={() => handleMinimizeWindow()}
+            aria-label='Minimize'
+          />
+          <button
+            onClick={() => setIsMaximized(!isMaximized)}
+            aria-label='Maximize'
+          />
+          <button onClick={() => setIsClosed(!isClosed)} aria-label='Close' />
         </div>
       </div>
 
-      <div className='window-body'>
-        <p>{children}</p>
-      </div>
+      <div className='window-body'>{children}</div>
     </div>
   );
 };

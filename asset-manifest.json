@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/pixel-desk-os/static/css/main.94e622e2.chunk.css",
-    "main.js": "/pixel-desk-os/static/js/main.30184a78.chunk.js",
-    "main.js.map": "/pixel-desk-os/static/js/main.30184a78.chunk.js.map",
+    "main.css": "/pixel-desk-os/static/css/main.fa9665ae.chunk.css",
+    "main.js": "/pixel-desk-os/static/js/main.7776a1e9.chunk.js",
+    "main.js.map": "/pixel-desk-os/static/js/main.7776a1e9.chunk.js.map",
     "runtime-main.js": "/pixel-desk-os/static/js/runtime-main.96a35c67.js",
     "runtime-main.js.map": "/pixel-desk-os/static/js/runtime-main.96a35c67.js.map",
     "static/css/2.98e78da5.chunk.css": "/pixel-desk-os/static/css/2.98e78da5.chunk.css",
-    "static/js/2.6612b00c.chunk.js": "/pixel-desk-os/static/js/2.6612b00c.chunk.js",
-    "static/js/2.6612b00c.chunk.js.map": "/pixel-desk-os/static/js/2.6612b00c.chunk.js.map",
+    "static/js/2.93df3460.chunk.js": "/pixel-desk-os/static/js/2.93df3460.chunk.js",
+    "static/js/2.93df3460.chunk.js.map": "/pixel-desk-os/static/js/2.93df3460.chunk.js.map",
     "index.html": "/pixel-desk-os/index.html",
-    "precache-manifest.3e74031c7e957dea7cb249d1b10c3048.js": "/pixel-desk-os/precache-manifest.3e74031c7e957dea7cb249d1b10c3048.js",
+    "precache-manifest.656c800cfc87c2e6630bc9f6ee55824e.js": "/pixel-desk-os/precache-manifest.656c800cfc87c2e6630bc9f6ee55824e.js",
     "service-worker.js": "/pixel-desk-os/service-worker.js",
     "static/css/2.98e78da5.chunk.css.map": "/pixel-desk-os/static/css/2.98e78da5.chunk.css.map",
-    "static/css/main.94e622e2.chunk.css.map": "/pixel-desk-os/static/css/main.94e622e2.chunk.css.map",
-    "static/js/2.6612b00c.chunk.js.LICENSE.txt": "/pixel-desk-os/static/js/2.6612b00c.chunk.js.LICENSE.txt",
+    "static/css/main.fa9665ae.chunk.css.map": "/pixel-desk-os/static/css/main.fa9665ae.chunk.css.map",
+    "static/js/2.93df3460.chunk.js.LICENSE.txt": "/pixel-desk-os/static/js/2.93df3460.chunk.js.LICENSE.txt",
     "static/media/castlevania.mp3": "/pixel-desk-os/static/media/castlevania.b084d6a5.mp3",
     "static/media/directory_closed.ico": "/pixel-desk-os/static/media/directory_closed.dba9793e.ico",
     "static/media/game_mine_2.ico": "/pixel-desk-os/static/media/game_mine_2.7ee9e4ff.ico",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.96a35c67.js",
     "static/css/2.98e78da5.chunk.css",
-    "static/js/2.6612b00c.chunk.js",
-    "static/css/main.94e622e2.chunk.css",
-    "static/js/main.30184a78.chunk.js"
+    "static/js/2.93df3460.chunk.js",
+    "static/css/main.fa9665ae.chunk.css",
+    "static/js/main.7776a1e9.chunk.js"
   ]
 }

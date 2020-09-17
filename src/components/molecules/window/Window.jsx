@@ -58,7 +58,6 @@ export const Window = ({ title, children }) => {
 
   function handleMinimizeWindow() {
     setIsMinimized(!isMinimized);
-    localStorage.setItem(title, isMinimized);
   }
 
   return (

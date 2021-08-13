@@ -21,6 +21,11 @@
     background-color: rgb(206, 225, 241);
     border-radius: 2px;
   }
+  
+  img {
+    width: 400px;
+    align-self: center;
+  }
 
   .blinking {
     animation: blinkingText 1.5s infinite;
